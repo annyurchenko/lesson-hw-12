@@ -1,0 +1,65 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  &__logo {
+    margin-top: 42px;
+    margin-right: 172px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    &-item {
+      padding: 41.78px 0;
+      width: 100px;
+      text-align: center;
+
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 16px;
+      text-transform: uppercase;
+      color: $ordinary-white;
+
+      &_line {
+        justify-content: center;
+        margin-top: 3px;
+        width: 85px;
+        border: none;
+        background-color: $orange;
+        color: $orange;
+        height: 1px;
+        opacity: 0;
+      }
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      &:active {
+        color: $orange;
+        text-decoration: none;
+
+        .header__menu-item_line {
+          opacity: 1;
+        }
+      }
+    }
+
+    &-logo {
+      padding: 41.78px 0;
+      margin-left: 18.89px;
+      margin-right: 20.52px;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

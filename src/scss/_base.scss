@@ -42,7 +42,20 @@ h6 {
 .divider {
   height: 4px;
   background: $red;
-  max-width: 170px;
+  width: 170px;
   margin: 0 auto;
   border: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  padding: 0 170px;
 }
