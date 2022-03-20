@@ -1,0 +1,48 @@
+body {
+  font-family: $raleway-font-stack;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+h1 {
+  font-family: $montserrat-font-stack;
+  font-weight: 700;
+  font-size: 144px;
+  line-height: 176px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: $kaushan-font-stack;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 93px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+h4 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+h6 {
+  font-family: $raleway-font-stack;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.divider {
+  height: 4px;
+  background: $red;
+  max-width: 170px;
+  margin: 0 auto;
+  border: none;
+}
