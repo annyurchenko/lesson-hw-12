@@ -1,0 +1,125 @@
+.about {
+  text-align: center;
+  padding-top: 42px;
+
+  &__title {
+    font-size: 30px;
+    line-height: 44px;
+    color: $dark;
+    padding: 18px 0;
+  }
+
+  &__subtitle {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: $dark;
+    padding: 19.5px 0;
+    margin-bottom: 24px;
+  }
+
+  &__description {
+    padding: 38px 0;
+    margin-bottom: 58px;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+}
+
+.team {
+  position: relative;
+
+  &__image {
+    width: 100%;
+    background-color: $green;
+    object-fit: cover;
+    object-position: center;
+
+    &-overlay {
+      cursor: pointer;
+      width: 100%;
+      opacity: 0;
+      position: absolute;
+      top: -16px;
+      left: -16px;
+      bottom: 16px;
+      right: 0;
+      transition: opacity 0.3s;
+      background: linear-gradient(
+        360deg,
+        rgba(237, 215, 137, 0.9) 0%,
+        rgba(233, 130, 131, 0.9) 100%
+      );
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+
+  &__icon {
+    margin: 129px auto 30px;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $ordinary-white;
+    margin: 0 auto;
+  }
+}
+
+.futures {
+  width: calc(100% + 340px);
+  position: relative;
+  left: -170px;
+  padding: 0 170px;
+  margin-top: 108px;
+  height: 250px;
+
+  text-align: center;
+  color: $ordinary-white;
+  background-color: $green;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-left: 2px solid $ordinary-white;
+    height: 252px;
+    width: calc(100% - 340px / 5);
+
+    &:last-child {
+      border-right: 2px solid $ordinary-white;
+      height: 252px;
+    }
+
+    &--number {
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 75px;
+      padding-bottom: 15px;
+    }
+
+    &--text {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+    }
+  }
+}

@@ -35,7 +35,7 @@
 86C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\@parcel\events\package.json132919266060211756 0
 95C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\postcss-normalize-repeat-style\types132920951916637878 1
 98C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\caniuse-lite\data\features\autofocus.js132919266173482563 0
-50C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\dist132922847420151573 1
+50C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\dist132923639464626983 1
 93C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\cosmiconfig\dist\ExplorerBase.d.ts132919266141164550 0
 54C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\src\scss132920952090931908 1
 84C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\yaml\browser\dist\util.js132919266175892105 0
@@ -69,7 +69,7 @@
 75C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\minimist\LICENSE132919265922565800 0
 91C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\regenerator-runtime\package.json132919265988781367 0
 73C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\lilconfig\dist132920951744882496 1
-60C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\src\index.html132922844607663301 0
+60C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\src\index.html132923655518433979 0
 81C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\ansi-styles\index.d.ts132919265999510764 0
 91C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\htmlnano\lib\modules\minifyJs.js132919266087925062 0
 86C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\immutable\dist\immutable.js132919266864567051 0
@@ -93,8 +93,8 @@
 80C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\posthtml\lib\index.js132919265977865511 0
 62C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\src\scss\screens132922686190880238 1
 77C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\.package-lock.json132919269065401598 0
-70C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\src\scss\_variables.scss132922803009654135 0
-65C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\src\scss\_base.scss132922815176719102 0
+70C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\src\scss\_variables.scss132922849686738874 0
+65C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\src\scss\_base.scss132922849648186164 0
 93C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\type-fest\source\package-json.d.ts132919266115677561 0
 82C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\json5\dist\index.min.js132919266005584986 0
 75C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\src\images\pinterest-logo.svg132922509150568945 0
@@ -107,15 +107,15 @@
 75C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\v8-compile-cache132920952075962483 1
 81C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\stylehacks\LICENSE-MIT132919265921726994 0
 77C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\mdn-data\README.md132919266128139467 0
-75C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\src\scss\screens\_header.scss132922718174304377 0
+75C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\src\scss\screens\_header.scss132922849762144017 0
 111C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\caniuse-lite\data\features\viewport-unit-variants.js132919266389396342 0
 94C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\type-fest\source\tsconfig-json.d.ts132919266163123290 0
-73C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\src\scss\screens\_hero.scss132922847801716586 0
+73C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\src\scss\screens\_hero.scss132922849798760778 0
 74C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\src\images\insta-image-1.png132922511940256597 0
 93C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\type-fest\ts41\delimiter-case.d.ts132919266055317385 0
 75C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\stylehacks\types132920952001735618 1
 83C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\postcss-unique-selectors132920951947063356 1
-78C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\src\scss\screens\_portfolio.scss132920782923340608 0
+78C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\src\scss\screens\_portfolio.scss132923653090110404 0
 70C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\lmdb\mod.ts132919266373826588 0
 98C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\terser\node_modules\commander\Readme.md132919266008484531 0
 93C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\postcss-ordered-values\LICENSE-MIT132919265922841040 0
@@ -3552,7 +3552,7 @@
 89C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\@parcel\core\src\AssetGraph.js132919266103932568 0
 90C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\caniuse-lite\data\regions\FJ.js132919266338391341 0
 90C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\caniuse-lite\data\regions\FM.js132919266339231448 0
-69C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\dist\index.b10d73a7.css132922847419861580 0
+69C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\dist\index.b10d73a7.css132923610270994355 0
 90C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\caniuse-lite\data\regions\FO.js132919266339311442 0
 90C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\caniuse-lite\data\regions\FR.js132919266342750600 0
 101C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\caniuse-lite\data\features\input-search.js132919266353439369 0
@@ -3680,7 +3680,7 @@
 92C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\caniuse-lite\data\features\let.js132919266363004291 0
 78C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\callsites\readme.md132919265996004780 0
 90C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\caniuse-lite\data\regions\TD.js132919266387630220 0
-67C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\dist\mogo.59712999.js132922795290735366 0
+67C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\dist\mogo.59712999.js132923610273154362 0
 90C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\caniuse-lite\data\regions\TG.js132919266388217137 0
 90C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\caniuse-lite\data\regions\TH.js132919266388217137 0
 90C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\caniuse-lite\data\regions\TJ.js132919266388217137 0
@@ -3896,7 +3896,7 @@
 111C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\caniuse-lite\data\features\keyboardevent-charcode.js132919266358489050 0
 104C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\caniuse-lite\data\features\getrandomvalues.js132919266344155907 0
 100C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\@parcel\source-map\dist\SourceMap.js.flow132919265966904821 0
-61C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\dist\index.html132922844623726661 0
+61C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\dist\index.html132923639464536675 0
 93C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\caniuse-lite\data\features\heif.js132919266346241177 0
 93C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\caniuse-lite\data\features\hevc.js132919266346241177 0
 95C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\caniuse-lite\data\features\hidden.js132919266346241177 0
@@ -4054,7 +4054,7 @@
 94C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\caniuse-lite\data\features\webgl.js132919266390745763 0
 88C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\@parcel\workers\src\Worker.js132919266169890495 0
 99C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\caniuse-lite\data\features\websockets.js132919266392018942 0
-72C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\dist\cup-icon.5a16ed15.svg132922795291335377 0
+72C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\dist\cup-icon.5a16ed15.svg132923610273154362 0
 100C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\caniuse-lite\data\features\will-change.js132919266392345800 0
 93C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\caniuse-lite\data\features\woff.js132919266392345800 0
 94C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\caniuse-lite\data\features\woff2.js132919266392425419 0
@@ -4274,7 +4274,7 @@
 90C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\@parcel\utils\src\countLines.js132919266050189272 0
 90C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\@parcel\utils\src\DefaultMap.js132919266057692105 0
 88C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\@parcel\utils\src\Deferred.js132919266064472760 0
-83C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\dist\portfolio-case-girl.1ea4d2af.png132922795290875353 0
+83C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\dist\portfolio-case-girl.1ea4d2af.png132923610271794352 0
 103C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\@parcel\source-map\parcel_sourcemap_node\src132920951336891057 1
 100C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\@parcel\utils\src\generateBuildMetrics.js132919266085054329 0
 149C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\@parcel\core\test\fixtures\plugins\node_modules\parcel-transformer-no-engines\package.json132919266317528838 0
@@ -4877,9 +4877,9 @@
 72C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\.bin\svgo.ps1132919266396551337 0
 70C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\.bin\terser132919266396551337 0
 74C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\node_modules\.bin\terser.ps1132919266396551337 0
-80C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\dist\eagle-background.33e4ed40.png132922795291435305 0
-73C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\dist\index.b10d73a7.css.map132922847420051589 0
-71C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\dist\mogo.59712999.js.map132922795290795331 0
+80C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\dist\eagle-background.33e4ed40.png132923610272194424 0
+73C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\dist\index.b10d73a7.css.map132923610271474324 0
+71C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\dist\mogo.59712999.js.map132923610273154362 0
 78C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\dist\portfolio-case.cdb7572c.png132919297987604785 0
 71C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\dist\practise.59712999.js132919297982566466 0
 75C:\Users\Ann\Desktop\TMS\Lesson12 (none)\mogo\dist\practise.59712999.js.map132919297982646493 0
