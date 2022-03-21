@@ -1,0 +1,46 @@
+.reviews {
+  &__container {
+    width: 100%;
+    padding: 42px 180px;
+    background-color: $white;
+    display: flex;
+  }
+
+  &__arrow {
+    margin-right: 45px;
+
+    &--right {
+      transform: rotate(180deg);
+      margin-right: 0;
+      margin-left: 48px;
+    }
+  }
+
+  &__icon {
+    padding: 35px;
+    border: 2px solid $green;
+    margin-right: 30px;
+  }
+
+  &__text {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: $message-gray;
+    margin-bottom: 21px;
+  }
+
+  &__divider {
+    width: 70px;
+    margin-right: 56px;
+    display: inline-block;
+  }
+
+  &__name {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    display: inline-block;
+  }
+}
