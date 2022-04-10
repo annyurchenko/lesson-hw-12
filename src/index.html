@@ -4,8 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="./scss/main.scss" />
-    <title>Document</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="favicon" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+    <title>MoGo</title>
   </head>
   <body>
     <div class="banner__container container">
@@ -236,28 +243,116 @@
       </ul>
     </section>
 
-    <section class="reviews reviews__container">
-      <img class="reviews__arrow" src="./images/arrow_down.svg" alt="arrow" />
-      <img
-        class="reviews__icon"
-        src="./images/message-icon.svg"
-        alt="message-icon"
-      />
-      <div class="reviews__message">
-        <p class="reviews__text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque nec
-          diam platea ullamcorper feugiat amet. Id aliquet vehicula feugiat arcu
-          arcu nulla ornare. Sed amet venenatis, massa sit.
-        </p>
-        <hr class="reviews__divider divider" />
-        <h2 class="reviews__name">Jon Doe</h2>
+    <div class="swiper container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <section class="reviews reviews__container">
+            <img
+              class="reviews__icon"
+              src="./images/message-icon.svg"
+              alt="message-icon"
+            />
+            <figure class="reviews__message">
+              <p class="reviews__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque
+                nec diam platea ullamcorper feugiat amet. Id aliquet vehicula
+                feugiat arcu arcu nulla ornare. Sed amet venenatis, massa sit.
+              </p>
+              <hr class="reviews__divider divider" />
+              <figcaption class="reviews__name">Jon Doe</figcaption>
+            </figure>
+          </section>
+        </div>
+
+        <div class="swiper-slide">
+          <section class="reviews reviews__container">
+            <img
+              class="reviews__icon"
+              src="./images/message-icon.svg"
+              alt="message-icon"
+            />
+            <figure class="reviews__message">
+              <p class="reviews__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque
+                nec diam platea ullamcorper feugiat amet. Id aliquet vehicula
+                feugiat arcu arcu nulla ornare. Sed amet venenatis, massa sit.
+              </p>
+              <hr class="reviews__divider divider" />
+              <figcaption class="reviews__name">Jon Doe</figcaption>
+            </figure>
+          </section>
+        </div>
+
+        <div class="swiper-slide">
+          <section class="reviews reviews__container">
+            <img
+              class="reviews__icon"
+              src="./images/message-icon.svg"
+              alt="message-icon"
+            />
+            <figure class="reviews__message">
+              <p class="reviews__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque
+                nec diam platea ullamcorper feugiat amet. Id aliquet vehicula
+                feugiat arcu arcu nulla ornare. Sed amet venenatis, massa sit.
+              </p>
+              <hr class="reviews__divider divider" />
+              <figcaption class="reviews__name">Jon Doe</figcaption>
+            </figure>
+          </section>
+        </div>
+
+        <div class="swiper-slide">
+          <section class="reviews reviews__container">
+            <img
+              class="reviews__icon"
+              src="./images/message-icon.svg"
+              alt="message-icon"
+            />
+            <figure class="reviews__message">
+              <p class="reviews__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque
+                nec diam platea ullamcorper feugiat amet. Id aliquet vehicula
+                feugiat arcu arcu nulla ornare. Sed amet venenatis, massa sit.
+              </p>
+              <hr class="reviews__divider divider" />
+              <figcaption class="reviews__name">Jon Doe</figcaption>
+            </figure>
+          </section>
+        </div>
+
+        <div class="swiper-slide">
+          <section class="reviews reviews__container">
+            <img
+              class="reviews__icon"
+              src="./images/message-icon.svg"
+              alt="message-icon"
+            />
+            <figure class="reviews__message">
+              <p class="reviews__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque
+                nec diam platea ullamcorper feugiat amet. Id aliquet vehicula
+                feugiat arcu arcu nulla ornare. Sed amet venenatis, massa sit.
+              </p>
+              <hr class="reviews__divider divider" />
+              <figcaption class="reviews__name">Jon Doe</figcaption>
+            </figure>
+          </section>
+        </div>
       </div>
-      <img
-        class="reviews__arrow--right"
-        src="./images/arrow_down.svg"
-        alt="arrow"
-      />
-    </section>
+
+      <div class="swiper-button-prev">
+        <img class="reviews__arrow" src="./images/arrow_down.svg" alt="arrow" />
+      </div>
+      <div class="swiper-button-next">
+        <img
+          class="reviews__arrow--right"
+          src="./images/arrow_down.svg"
+          alt="arrow"
+        />
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
 
     <section class="portfolio container">
       <h2 class="portfolio__title">What we do</h2>
@@ -396,9 +491,9 @@
           </div>
 
           <hr class="info__divider divider" />
-          <p class="info__follow">Follow Us</p>
 
           <div class="info__media media">
+            <p class="info__follow">Follow Us</p>
             <a href="#"
               ><img
                 src="./images/facebook-logo.svg"
@@ -437,8 +532,10 @@
             /></a>
           </div>
 
-          <input type="email" placeholder="Your Email" class="info__email" />
-          <button class="info__button">subscribe</button>
+          <div class="info__input-email">
+            <input type="email" placeholder="Your Email" class="info__email" />
+            <button class="info__button">subscribe</button>
+          </div>
         </div>
 
         <div class="footer__blogs blogs">
@@ -450,10 +547,10 @@
               alt="blog"
               class="card__image"
             />
-            <p class="card__description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-            <p class="card__date">jan.9.22.15</p>
+            <div class="card__description">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p class="card__description-date">jan.9.22.15</p>
+            </div>
           </div>
 
           <div class="blogs__card card">
@@ -462,10 +559,10 @@
               alt="blog"
               class="card__image"
             />
-            <p class="card__description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-            <p class="card__date">jan.9.22.15</p>
+            <div class="card__description">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p class="card__description-date">jan.9.22.15</p>
+            </div>
           </div>
 
           <div class="blogs__card card">
@@ -474,10 +571,10 @@
               alt="blog"
               class="card__image"
             />
-            <p class="card__description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-            <p class="card__date">jan.9.22.15</p>
+            <div class="card__description">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p class="card__description-date">jan.9.22.15</p>
+            </div>
           </div>
         </div>
 
@@ -539,5 +636,23 @@
       <hr class="footer__divider divider" />
       <p class="footer__legacy">Copyright © 2021 mogo. All Rights Reserved</p>
     </footer>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <script type="module">
+      const swiper = new Swiper(".swiper", {
+        loop: true,
+
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
   </body>
 </html>

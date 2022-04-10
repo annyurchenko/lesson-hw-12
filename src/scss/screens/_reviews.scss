@@ -1,18 +1,26 @@
+.swiper {
+  width: 100%;
+
+  &-pagination {
+    display: none;
+  }
+}
+
 .reviews {
   &__container {
     width: 100%;
-    padding: 42px 180px;
+    padding: 42px 270px;
     background-color: $white;
     display: flex;
   }
 
   &__arrow {
-    margin-right: 45px;
+    margin-left: 320px;
 
     &--right {
       transform: rotate(180deg);
-      margin-right: 0;
-      margin-left: 48px;
+      margin-right: 320px;
+      margin-left: 0;
     }
   }
 
@@ -38,6 +46,7 @@
   }
 
   &__name {
+    font-family: $kaushan-font-stack;
     font-weight: 400;
     font-size: 30px;
     line-height: 44px;
