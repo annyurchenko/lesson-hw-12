@@ -1,6 +1,10 @@
 .portfolio {
   text-align: center;
-  padding-top: 64px;
+  padding-top: 84px;
+
+  @include tablet {
+    padding-top: 58px;
+  }
 
   &__container {
     width: calc(100% + 340px);
@@ -9,6 +13,11 @@
 
     display: grid;
     grid-template: repeat(2, 50%) / repeat(4, 25%);
+
+    @include tablet {
+      width: calc(100% + 32px);
+      left: -16px;
+    }
   }
 
   &__case--long {
@@ -20,6 +29,12 @@
     line-height: 44px;
     color: $dark;
     padding: 18px 0;
+
+    @include tablet {
+      font-size: 24px;
+      line-height: 35px;
+      padding: 9.6px 0;
+    }
   }
 
   &__subtitle {
@@ -30,11 +45,31 @@
     color: $dark;
     padding: 20px 0;
     margin-bottom: 24px;
+
+    @include tablet {
+      font-size: 24px;
+      line-height: 28px;
+      padding: 13.5px 0;
+      margin-bottom: 15.82px;
+    }
+  }
+
+  &__divider {
+    @include tablet {
+      width: 146px;
+    }
   }
 
   &__description {
     padding: 38px 0;
     margin-bottom: 42px;
+
+    @include tablet {
+      font-size: 14px;
+      line-height: 16px;
+      padding: 24px 100px;
+      margin-bottom: 28.48px;
+    }
   }
 }
 
@@ -43,7 +78,7 @@
 
   &__image {
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
     object-position: center;
   }
 
@@ -69,6 +104,11 @@
 
   &__icon {
     margin: 118px auto 57px;
+
+    @include tablet {
+      margin: 80px auto 38.65px;
+      width: 28.48px;
+    }
   }
 
   &__title {
@@ -79,10 +119,20 @@
     text-transform: uppercase;
     color: $ordinary-white;
     padding: 11px 0;
+
+    @include tablet {
+      font-size: 18px;
+      line-height: 21px;
+    }
   }
 
   &__description {
     text-align: center;
     color: $ordinary-white;
+
+    @include tablet {
+      font-size: 14px;
+      line-height: 16px;
+    }
   }
 }

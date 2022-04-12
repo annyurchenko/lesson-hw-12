@@ -4,10 +4,23 @@
 
   &__logo {
     margin-top: 42px;
-    margin-right: 172px;
+    width: 98px;
+    height: 26px;
 
     &:hover {
       cursor: pointer;
+    }
+
+    @include tablet {
+      margin-top: 28px;
+      width: 66px;
+      height: 17.7px;
+    }
+
+    @include mobile {
+      margin-top: 23px;
+      width: 54px;
+      height: 14.5px;
     }
   }
 
@@ -27,6 +40,13 @@
       text-transform: uppercase;
       color: $ordinary-white;
 
+      @include tablet {
+        padding: 26.4px 0;
+        width: 93px;
+        font-size: 13px;
+        line-height: 15px;
+      }
+
       &_line {
         justify-content: center;
         margin-top: 3px;
@@ -36,6 +56,10 @@
         color: $orange;
         height: 1px;
         opacity: 0;
+
+        @include tablet {
+          width: 70px;
+        }
       }
 
       &:hover {
@@ -59,6 +83,10 @@
 
       &:hover {
         cursor: pointer;
+      }
+
+      @include tablet {
+        padding: 27.46px 0;
       }
     }
   }

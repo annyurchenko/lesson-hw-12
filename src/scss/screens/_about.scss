@@ -2,11 +2,21 @@
   text-align: center;
   padding-top: 42px;
 
+  @include tablet {
+    padding-top: 28.58px;
+  }
+
   &__title {
     font-size: 30px;
     line-height: 44px;
     color: $dark;
     padding: 18px 0;
+
+    @include tablet {
+      font-size: 24px;
+      line-height: 35px;
+      padding: 16px 0;
+    }
   }
 
   &__subtitle {
@@ -17,17 +27,42 @@
     color: $dark;
     padding: 19.5px 0;
     margin-bottom: 24px;
+
+    @include tablet {
+      font-size: 24px;
+      line-height: 28px;
+      padding: 39.75px 0;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__divider {
+    @include tablet {
+      width: 148px;
+    }
   }
 
   &__description {
     padding: 38px 0;
     margin-bottom: 58px;
+
+    @include tablet {
+      font-size: 14px;
+      line-height: 16px;
+      padding: 33.35px 30px;
+      margin-bottom: 48.51px;
+    }
   }
 
   &__container {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     gap: 30px;
+
+    @include tablet {
+      gap: 20px;
+    }
   }
 }
 
@@ -37,7 +72,7 @@
   &__image {
     width: 100%;
     background-color: $green;
-    object-fit: cover;
+    object-fit: contain;
     object-position: center;
 
     &-overlay {
@@ -59,11 +94,21 @@
       &:hover {
         opacity: 1;
       }
+
+      @include tablet {
+        top: -6px;
+        left: -6px;
+        bottom: 6px;
+      }
     }
   }
 
   &__icon {
     margin: 129px auto 30px;
+
+    @include tablet {
+      margin: 108px auto 25px;
+    }
   }
 
   &__title {
@@ -74,6 +119,11 @@
     text-transform: uppercase;
     color: $ordinary-white;
     margin: 0 auto;
+
+    @include tablet {
+      font-size: 18px;
+      line-height: 21px;
+    }
   }
 }
 
@@ -95,6 +145,14 @@
   justify-content: center;
   align-items: center;
 
+  @include tablet {
+    width: calc(100% + 32px);
+    left: -16px;
+    padding: 0 16px;
+    margin-top: 60px;
+    height: 166.5px;
+  }
+
   &__item {
     display: flex;
     flex-direction: column;
@@ -105,9 +163,17 @@
     height: 252px;
     width: calc(100% - 340px / 5);
 
+    @include tablet {
+      height: 167.89px;
+    }
+
     &:last-child {
       border-right: 2px solid $ordinary-white;
       height: 252px;
+
+      @include tablet {
+        height: 167.89px;
+      }
     }
 
     &--number {
@@ -115,6 +181,11 @@
       font-size: 64px;
       line-height: 75px;
       padding-bottom: 15px;
+
+      @include tablet {
+        font-size: 48px;
+        line-height: 56px;
+      }
     }
 
     &--text {

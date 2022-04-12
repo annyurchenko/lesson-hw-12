@@ -58,4 +58,8 @@ li {
 
 .container {
   padding: 0 170px;
+
+  @include tablet {
+    padding: 0 16px;
+  }
 }

@@ -12,22 +12,42 @@
     padding: 42px 270px;
     background-color: $white;
     display: flex;
+
+    @include tablet {
+      padding: 28.48px 100px;
+    }
   }
 
   &__arrow {
     margin-left: 320px;
 
+    @include tablet {
+      margin-left: 35px;
+    }
+
     &--right {
       transform: rotate(180deg);
       margin-right: 320px;
       margin-left: 0;
+
+      @include tablet {
+        margin-right: 35px;
+      }
     }
   }
 
   &__icon {
+    max-width: 174px;
+    max-height: 174px;
     padding: 35px;
     border: 2px solid $green;
     margin-right: 30px;
+
+    @include tablet {
+      max-width: 120px;
+      max-height: 120px;
+      padding: 23.74px;
+    }
   }
 
   &__text {
@@ -37,12 +57,22 @@
     line-height: 28px;
     color: $message-gray;
     margin-bottom: 21px;
+
+    @include tablet {
+      font-size: 18px;
+      line-height: 21px;
+    }
   }
 
   &__divider {
     width: 70px;
     margin-right: 56px;
     display: inline-block;
+
+    @include tablet {
+      width: 47.47px;
+      margin-right: 37.8px;
+    }
   }
 
   &__name {
@@ -51,5 +81,10 @@
     font-size: 30px;
     line-height: 44px;
     display: inline-block;
+
+    @include tablet {
+      font-size: 24px;
+      line-height: 35px;
+    }
   }
 }
