@@ -6,13 +6,17 @@
   position: relative;
   z-index: 1;
 
-  padding: 42px 170px;
+  padding: 46px 170px 42px;
   display: flex;
   flex-direction: column;
   align-items: center;
 
   @include tablet {
-    padding: 28.65px 16px;
+    padding: 31.25px 16px 28.65px;
+  }
+
+  @include mobile {
+    padding: 46px 16px 42px;
   }
 
   &__overlay {
@@ -29,6 +33,10 @@
     @include tablet {
       width: 14.5px;
     }
+
+    @include mobile {
+      width: 21.37px;
+    }
   }
 
   &__title {
@@ -37,12 +45,18 @@
     color: $red;
     padding: 19.5px 0;
     margin-bottom: 24px;
+    text-align: center;
 
     @include tablet {
       font-size: 24px;
       line-height: 28px;
       padding: 13.5px 0;
       margin-bottom: 16px;
+    }
+
+    @include mobile {
+      padding: 26.5px 0;
+      margin-bottom: 24px;
     }
   }
 

@@ -1,7 +1,17 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: $raleway-font-stack;
   font-size: 18px;
   line-height: 21px;
+}
+
+body.lock {
+  @include mobile {
+    overflow: hidden;
+  }
 }
 
 h1 {

@@ -1,0 +1,56 @@
+.burger {
+  display: none;
+
+  @include mobile {
+    display: block;
+    float: right;
+    width: 24px;
+    height: 18px;
+    position: relative;
+    z-index: 3;
+    margin: 19px 17px 0 0;
+  }
+
+  &::before,
+  &::after {
+    content: "";
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    left: 0;
+    transition: all 0.3s ease 0s;
+  }
+
+  &::before {
+    top: 0;
+  }
+
+  &::after {
+    bottom: 0;
+  }
+
+  &.active::before {
+    transform: rotate(45deg);
+    top: 7px;
+  }
+
+  &.active::after {
+    transform: rotate(-45deg);
+    bottom: 8px;
+  }
+
+  &-line {
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    left: 0;
+    top: 8px;
+    transition: all 0.3s ease 0s;
+  }
+
+  &.active > .burger-line {
+    transform: scale(0);
+  }
+}

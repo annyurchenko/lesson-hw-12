@@ -25,6 +25,11 @@
       line-height: 70px;
       margin-top: 52px;
     }
+
+    @include mobile {
+      font-size: 36px;
+      line-height: 52px;
+    }
   }
 
   &__main-title {
@@ -36,6 +41,13 @@
       line-height: 117px;
       margin: 0 115px 30px;
     }
+
+    @include mobile {
+      font-size: 48px;
+      line-height: 59px;
+      margin: -20px 0 0;
+      padding: 66.5px 0;
+    }
   }
 
   &__divider {
@@ -43,6 +55,11 @@
 
     @include tablet {
       width: 115px;
+    }
+
+    @include mobile {
+      width: 134px;
+      margin-top: -4px;
     }
   }
 
@@ -80,44 +97,62 @@
       margin: 50.47px auto 78px;
       padding: 16.6px 93px;
     }
+
+    @include mobile {
+      width: 100%;
+      margin: 49px auto 50px;
+      padding: 12.5px 0;
+      text-align: center;
+    }
   }
 
   &__slider {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    gap: 30px;
     padding-left: 0;
 
+    @include tablet {
+      gap: 20px;
+    }
+
+    @include mobile {
+      margin-bottom: 42px;
+    }
+
     &-divider {
-      width: 270px;
+      width: 100%;
 
       &--small {
         background: $red;
-        width: 70px;
+        width: 26%;
         position: relative;
-        right: 100px;
+        right: 37%;
         top: -4px;
 
         @include tablet {
-          width: 64px;
-          right: 84.5px;
+          width: 27.47%;
+          right: 36.4%;
         }
-      }
 
-      @include tablet {
-        width: 233px;
+        @include mobile {
+          width: 100%;
+          top: 0;
+          right: 0;
+        }
       }
     }
 
     &-info {
-      margin-right: 30px;
+      width: 17.88%;
 
       @include tablet {
-        margin-right: 20px;
+        width: 22.75%;
       }
 
-      &:last-child {
-        margin-right: 0;
+      @include mobile {
+        width: 17.81%;
       }
 
       &--number {
@@ -127,7 +162,39 @@
         text-transform: uppercase;
         display: inline-block;
         padding: 19.5px 0;
+
+        @include tablet {
+          font-size: 24px;
+          line-height: 28px;
+        }
+
+        @include mobile {
+          display: none;
+        }
+      }
+
+      &--text {
+        display: inline-block;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+
+        @include tablet {
+          font-size: 14px;
+          line-height: 16px;
+        }
+
+        @include mobile {
+          display: none;
+        }
       }
     }
+  }
+}
+
+.hero.active {
+  @include mobile {
+    position: relative;
+    margin-top: 570px;
   }
 }

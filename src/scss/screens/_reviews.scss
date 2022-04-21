@@ -1,11 +1,3 @@
-.swiper {
-  width: 100%;
-
-  &-pagination {
-    display: none;
-  }
-}
-
 .reviews {
   &__container {
     width: 100%;
@@ -16,6 +8,10 @@
     @include tablet {
       padding: 28.48px 100px;
     }
+
+    @include mobile {
+      padding: 29px 16px 63px;
+    }
   }
 
   &__arrow {
@@ -25,6 +21,10 @@
       margin-left: 35px;
     }
 
+    @include mobile {
+      display: none;
+    }
+
     &--right {
       transform: rotate(180deg);
       margin-right: 320px;
@@ -32,6 +32,10 @@
 
       @include tablet {
         margin-right: 35px;
+      }
+
+      @include mobile {
+        display: none;
       }
     }
   }
@@ -48,6 +52,10 @@
       max-height: 120px;
       padding: 23.74px;
     }
+
+    @include mobile {
+      display: none;
+    }
   }
 
   &__text {
@@ -62,6 +70,12 @@
       font-size: 18px;
       line-height: 21px;
     }
+
+    @include mobile {
+      font-size: 14px;
+      line-height: 16px;
+      margin-bottom: 34px;
+    }
   }
 
   &__divider {
@@ -72,6 +86,10 @@
     @include tablet {
       width: 47.47px;
       margin-right: 37.8px;
+    }
+
+    @include mobile {
+      margin-right: 37.53px;
     }
   }
 
@@ -85,6 +103,12 @@
     @include tablet {
       font-size: 24px;
       line-height: 35px;
+    }
+
+    @include mobile {
+      font-size: 18px;
+      line-height: 26px;
+      padding: 5px 0;
     }
   }
 }

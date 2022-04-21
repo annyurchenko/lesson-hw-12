@@ -19,25 +19,29 @@
       <header class="header">
         <img src="./images/MoGo-logo.svg" alt="MoGo" class="header__logo" />
 
+        <div class="burger">
+          <span class="burger-line"></span>
+        </div>
+
         <nav class="header__menu">
           <li class="header__menu-item">
-            <a href="#"></a>About
+            <a href="#about"></a>About
             <hr class="header__menu-item_line" />
           </li>
           <li class="header__menu-item">
-            <a href="#"></a>service
+            <a href="#service"></a>service
             <hr class="header__menu-item_line" />
           </li>
           <li class="header__menu-item">
-            <a href="#"></a>work
+            <a href="#portfolio"></a>work
             <hr class="header__menu-item_line" />
           </li>
           <li class="header__menu-item">
-            <a href="#"></a>blog
+            <a href="#blog"></a>blog
             <hr class="header__menu-item_line" />
           </li>
           <li class="header__menu-item">
-            <a href="#"></a>Contact
+            <a href="#contact"></a>Contact
             <hr class="header__menu-item_line" />
           </li>
           <li class="header__menu-logo">
@@ -63,31 +67,31 @@
             <hr class="divider hero__divider hero__slider-divider" />
             <hr class="divider hero__divider hero__slider-divider--small" />
             <p class="hero__slider-info--number">01</p>
-            intro
+            <p class="hero__slider-info--text">intro</p>
           </li>
 
           <li class="hero__slider-info">
             <hr class="hero__slider-divider hero__divider divider" />
             <p class="hero__slider-info--number">02</p>
-            worck
+            <p class="hero__slider-info--text">worck</p>
           </li>
 
           <li class="hero__slider-info">
             <hr class="hero__slider-divider hero__divider divider" />
             <p class="hero__slider-info--number">03</p>
-            about
+            <p class="hero__slider-info--text">about</p>
           </li>
 
           <li class="hero__slider-info">
             <hr class="hero__slider-divider hero__divider divider" />
             <p class="hero__slider-info--number">04</p>
-            contacts
+            <p class="hero__slider-info--text">contacts</p>
           </li>
         </ul>
       </div>
     </div>
 
-    <section class="about container">
+    <section class="about container" id="about">
       <h2 class="about__title">What we do</h2>
       <h3 class="about__subtitle">story about us</h3>
       <hr class="about__divider divider" />
@@ -176,7 +180,7 @@
       </ul>
     </section>
 
-    <div class="swiper container">
+    <div class="swiper container" id="service">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <section class="reviews reviews__container">
@@ -287,7 +291,7 @@
       <div class="swiper-pagination"></div>
     </div>
 
-    <section class="portfolio container">
+    <section class="portfolio container" id="portfolio">
       <h2 class="portfolio__title">What we do</h2>
       <h3 class="portfolio__subtitle">some of our work</h3>
       <hr class="portfolio__divider divider" />
@@ -325,7 +329,7 @@
           </div>
         </div>
 
-        <div class="portfolio__case case portfolio__case--long">
+        <div class="portfolio__case case case--long">
           <img
             class="case__image"
             src="./images/portfolio-case-wood.png"
@@ -364,7 +368,7 @@
           </div>
         </div>
 
-        <div class="portfolio__case case">
+        <div class="portfolio__case case case--wide">
           <img
             class="case__image"
             src="./images/portfolio-case-round-building.png"
@@ -392,7 +396,7 @@
       </div>
     </section>
 
-    <section class="map container">
+    <section class="map container" id="blog">
       <div class="map__overlay"></div>
       <img
         class="map__location"
@@ -403,7 +407,7 @@
       <hr class="map__divider divider" />
     </section>
 
-    <footer class="footer container">
+    <footer class="footer container" id="contact">
       <section class="footer__main">
         <div class="footer__info info">
           <img
@@ -582,6 +586,9 @@
       <p class="footer__legacy">Copyright © 2021 mogo. All Rights Reserved</p>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="./js/burger.js"></script>
+
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
     <script type="module">
@@ -595,6 +602,7 @@
 
         pagination: {
           el: ".swiper-pagination",
+          type: "bullets",
           clickable: true,
         },
       });
