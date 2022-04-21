@@ -1,0 +1,68 @@
+.map {
+  width: 100%;
+  background-image: url(../images/blog-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+
+  padding: 46px 170px 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include tablet {
+    padding: 31.25px 16px 28.65px;
+  }
+
+  @include mobile {
+    padding: 46px 16px 42px;
+  }
+
+  &__overlay {
+    background: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+  }
+
+  &__location {
+    @include tablet {
+      width: 14.5px;
+    }
+
+    @include mobile {
+      width: 21.37px;
+    }
+  }
+
+  &__title {
+    font-size: 36px;
+    line-height: 42px;
+    color: $red;
+    padding: 19.5px 0;
+    margin-bottom: 24px;
+    text-align: center;
+
+    @include tablet {
+      font-size: 24px;
+      line-height: 28px;
+      padding: 13.5px 0;
+      margin-bottom: 16px;
+    }
+
+    @include mobile {
+      padding: 26.5px 0;
+      margin-bottom: 24px;
+    }
+  }
+
+  &__divider {
+    @include tablet {
+      width: 148px;
+    }
+  }
+}

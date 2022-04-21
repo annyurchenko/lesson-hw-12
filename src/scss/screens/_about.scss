@@ -1,0 +1,257 @@
+.about {
+  text-align: center;
+  padding-top: 42px;
+
+  @include tablet {
+    padding-top: 29px;
+  }
+
+  &__title {
+    font-size: 30px;
+    line-height: 44px;
+    color: $dark;
+    padding: 18px 0;
+
+    @include tablet {
+      font-size: 24px;
+      line-height: 35px;
+      padding: 16px 0;
+    }
+  }
+
+  &__subtitle {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: $dark;
+    padding: 19.5px 0;
+    margin-bottom: 24px;
+
+    @include tablet {
+      font-size: 24px;
+      line-height: 28px;
+      padding: 39.75px 0;
+      margin-bottom: 20px;
+    }
+
+    @include mobile {
+      padding: 20px 0;
+    }
+  }
+
+  &__divider {
+    @include tablet {
+      width: 148px;
+    }
+
+    @include mobile {
+      width: 134px;
+    }
+  }
+
+  &__description {
+    padding: 38px 0;
+    margin-bottom: 58px;
+
+    @include tablet {
+      font-size: 14px;
+      line-height: 16px;
+      padding: 33.35px 30px;
+      margin-bottom: 48.51px;
+    }
+
+    @include mobile {
+      padding: 17px 0px;
+      margin-bottom: 16px;
+    }
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+
+    @include tablet {
+      gap: 20px;
+    }
+
+    @include mobile {
+      flex-direction: column;
+      gap: 16px;
+    }
+  }
+}
+
+.team {
+  position: relative;
+
+  &__image {
+    width: 100%;
+    background-color: $green;
+    object-fit: contain;
+    object-position: center;
+
+    &-overlay {
+      cursor: pointer;
+      width: 100%;
+      opacity: 0;
+      position: absolute;
+      top: -16px;
+      left: -16px;
+      bottom: 16px;
+      right: 0;
+      transition: opacity 0.3s;
+      background: linear-gradient(
+        360deg,
+        rgba(237, 215, 137, 0.9) 0%,
+        rgba(233, 130, 131, 0.9) 100%
+      );
+
+      &:hover {
+        opacity: 1;
+      }
+
+      @include tablet {
+        top: -6px;
+        left: -6px;
+        bottom: 6px;
+      }
+
+      @include mobile {
+        top: 68%;
+        left: 0px;
+        bottom: 0px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+    }
+  }
+
+  &__icon {
+    margin: 129px auto 30px;
+
+    @include tablet {
+      margin: 108px auto 25px;
+    }
+
+    @include mobile {
+      width: 30px;
+      margin: 0 32.5px 0 14px;
+    }
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $ordinary-white;
+    margin: 0 auto;
+
+    @include tablet {
+      font-size: 18px;
+      line-height: 21px;
+    }
+
+    @include mobile {
+      margin-left: 0;
+    }
+  }
+}
+
+.futures {
+  width: calc(100% + 340px);
+  position: relative;
+  left: -170px;
+  padding: 0 170px;
+  margin-top: 108px;
+  margin-bottom: 0;
+  height: 250px;
+
+  text-align: center;
+  color: $ordinary-white;
+  background-color: $green;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  @include tablet {
+    width: calc(100% + 32px);
+    left: -16px;
+    padding: 0 16px;
+    margin-top: 60px;
+    height: 166.5px;
+  }
+
+  @include mobile {
+    margin-top: 20px;
+    height: auto;
+
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(2, 50%);
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    border-left: 2px solid $ordinary-white;
+    height: 252px;
+    width: calc(100% - 340px / 5);
+
+    @include tablet {
+      height: 167.89px;
+    }
+
+    @include mobile {
+      border-left: none;
+      border-bottom: 1px solid $ordinary-white;
+      height: auto;
+      width: 100%;
+      padding: 19px 0;
+    }
+
+    &:last-child {
+      border-right: 2px solid $ordinary-white;
+      height: 252px;
+
+      @include tablet {
+        height: 167.89px;
+      }
+
+      @include mobile {
+        border-right: none;
+        height: auto;
+        grid-area: 3/1/4/3;
+      }
+    }
+
+    &--number {
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 75px;
+      padding-bottom: 15px;
+
+      @include tablet {
+        font-size: 48px;
+        line-height: 56px;
+      }
+    }
+
+    &--text {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+    }
+  }
+}

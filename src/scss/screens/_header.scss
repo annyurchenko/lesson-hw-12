@@ -1,0 +1,123 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  &__logo {
+    margin-top: 42px;
+    width: 98px;
+    height: 26px;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    @include tablet {
+      margin-top: 28px;
+      width: 66px;
+      height: 17.7px;
+    }
+
+    @include mobile {
+      margin-top: 23px;
+      width: 54px;
+      height: 14.5px;
+    }
+  }
+
+  &__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    overflow: auto;
+    transition: all 0.3s ease 0s;
+
+    @include mobile {
+      display: none;
+    }
+
+    &.active {
+      @include mobile {
+        display: block;
+        margin-top: 84px;
+        justify-content: flex-start;
+        align-items: center;
+        width: calc(100% - 32px);
+        padding: 0px 4px;
+        flex-direction: column;
+        position: fixed;
+      }
+    }
+
+    &-item {
+      padding: 41.78px 0;
+      width: 100px;
+      text-align: center;
+
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 16px;
+      text-transform: uppercase;
+      color: $ordinary-white;
+
+      @include tablet {
+        padding: 26.4px 0;
+        width: 93px;
+        font-size: 13px;
+        line-height: 15px;
+      }
+
+      &.active {
+        @include mobile {
+          padding: 24px 0 24px;
+          width: auto;
+        }
+      }
+
+      &_line {
+        justify-content: center;
+        margin-top: 3px;
+        width: 85px;
+        border: none;
+        background-color: $orange;
+        color: $orange;
+        height: 1px;
+        opacity: 0;
+
+        @include tablet {
+          width: 70px;
+        }
+      }
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      &:active {
+        color: $orange;
+        text-decoration: none;
+
+        .header__menu-item_line {
+          opacity: 1;
+        }
+      }
+    }
+
+    &-logo {
+      padding: 41.78px 0;
+      margin-left: 18.89px;
+      margin-right: 20.52px;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      @include tablet {
+        padding: 27.46px 0;
+      }
+
+      @include mobile {
+        display: none;
+      }
+    }
+  }
+}

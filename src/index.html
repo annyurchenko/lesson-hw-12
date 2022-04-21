@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./scss/main.scss" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="favicon" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+    <title>MoGo</title>
+  </head>
+  <body>
+    <div class="banner__container container">
+      <header class="header">
+        <img src="./images/MoGo-logo.svg" alt="MoGo" class="header__logo" />
+
+        <div class="burger">
+          <span class="burger-line"></span>
+        </div>
+
+        <nav class="header__menu">
+          <li class="header__menu-item">
+            <a href="#about"></a>About
+            <hr class="header__menu-item_line" />
+          </li>
+          <li class="header__menu-item">
+            <a href="#service"></a>service
+            <hr class="header__menu-item_line" />
+          </li>
+          <li class="header__menu-item">
+            <a href="#portfolio"></a>work
+            <hr class="header__menu-item_line" />
+          </li>
+          <li class="header__menu-item">
+            <a href="#blog"></a>blog
+            <hr class="header__menu-item_line" />
+          </li>
+          <li class="header__menu-item">
+            <a href="#contact"></a>Contact
+            <hr class="header__menu-item_line" />
+          </li>
+          <li class="header__menu-logo">
+            <a href="#">
+              <img src="./images/basket-icon.svg" alt="Basket" />
+            </a>
+          </li>
+          <li class="header__menu-logo">
+            <a href="#">
+              <img src="./images/search-logo.svg" alt="Search" />
+            </a>
+          </li>
+        </nav>
+      </header>
+
+      <div class="hero">
+        <h2 class="hero__title title">Creative Template</h2>
+        <h1 class="hero__main-title">Welcome <br />to MoGo</h1>
+        <hr class="hero__divider divider" />
+        <button class="hero__button">learn more</button>
+        <ul class="hero__slider">
+          <li class="hero__slider-info">
+            <hr class="divider hero__divider hero__slider-divider" />
+            <hr class="divider hero__divider hero__slider-divider--small" />
+            <p class="hero__slider-info--number">01</p>
+            <p class="hero__slider-info--text">intro</p>
+          </li>
+
+          <li class="hero__slider-info">
+            <hr class="hero__slider-divider hero__divider divider" />
+            <p class="hero__slider-info--number">02</p>
+            <p class="hero__slider-info--text">worck</p>
+          </li>
+
+          <li class="hero__slider-info">
+            <hr class="hero__slider-divider hero__divider divider" />
+            <p class="hero__slider-info--number">03</p>
+            <p class="hero__slider-info--text">about</p>
+          </li>
+
+          <li class="hero__slider-info">
+            <hr class="hero__slider-divider hero__divider divider" />
+            <p class="hero__slider-info--number">04</p>
+            <p class="hero__slider-info--text">contacts</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="about container" id="about">
+      <h2 class="about__title">What we do</h2>
+      <h3 class="about__subtitle">story about us</h3>
+      <hr class="about__divider divider" />
+      <p class="about__description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu facilisis
+        sed venenatis lacus. Eget sit ridiculus facilisi amet. Dis sapien ipsum
+        enim dui fermentum viverra dolor sit. Aliquet congue sit fermentum risus
+        feugiat.
+      </p>
+
+      <div class="about__container">
+        <div class="about__team team">
+          <img
+            class="team__image"
+            src="./images/architecture-0.png"
+            alt="team"
+          />
+          <div class="team__image-overlay">
+            <img
+              class="team__icon"
+              src="./images/member-icon.svg"
+              alt="Member"
+            />
+            <h5 class="team__title">Super team</h5>
+          </div>
+        </div>
+
+        <div class="about__team team">
+          <img
+            class="team__image"
+            src="./images/architecture-1.png"
+            alt="team"
+          />
+          <div class="team__image-overlay">
+            <img
+              class="team__icon"
+              src="./images/member-icon.svg"
+              alt="Member"
+            />
+            <h5 class="team__title">Super team</h5>
+          </div>
+        </div>
+
+        <div class="about__team team">
+          <img
+            class="team__image"
+            src="./images/architecture-2.png"
+            alt="team"
+          />
+          <div class="team__image-overlay">
+            <img
+              class="team__icon"
+              src="./images/member-icon.svg"
+              alt="Member"
+            />
+            <h5 class="team__title">Super team</h5>
+          </div>
+        </div>
+      </div>
+
+      <ul class="about__futures futures">
+        <li class="futures__item">
+          <h3 class="futures__item--number">42</h3>
+          <p class="futures__item--text">Lorem ipsum</p>
+        </li>
+
+        <li class="futures__item">
+          <h3 class="futures__item--number">123</h3>
+          <p class="futures__item--text">Lorem ipsum</p>
+        </li>
+
+        <li class="futures__item">
+          <h3 class="futures__item--number">15</h3>
+          <p class="futures__item--text">Lorem ipsum</p>
+        </li>
+
+        <li class="futures__item">
+          <h3 class="futures__item--number">99</h3>
+          <p class="futures__item--text">Lorem ipsum</p>
+        </li>
+
+        <li class="futures__item">
+          <h3 class="futures__item--number">24</h3>
+          <p class="futures__item--text">Lorem ipsum</p>
+        </li>
+      </ul>
+    </section>
+
+    <div class="swiper container" id="service">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <section class="reviews reviews__container">
+            <img
+              class="reviews__icon"
+              src="./images/message-icon.svg"
+              alt="message-icon"
+            />
+            <figure class="reviews__message">
+              <p class="reviews__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque
+                nec diam platea ullamcorper feugiat amet. Id aliquet vehicula
+                feugiat arcu arcu nulla ornare. Sed amet venenatis, massa sit.
+              </p>
+              <hr class="reviews__divider divider" />
+              <figcaption class="reviews__name">Jon Doe</figcaption>
+            </figure>
+          </section>
+        </div>
+
+        <div class="swiper-slide">
+          <section class="reviews reviews__container">
+            <img
+              class="reviews__icon"
+              src="./images/message-icon.svg"
+              alt="message-icon"
+            />
+            <figure class="reviews__message">
+              <p class="reviews__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque
+                nec diam platea ullamcorper feugiat amet. Id aliquet vehicula
+                feugiat arcu arcu nulla ornare. Sed amet venenatis, massa sit.
+              </p>
+              <hr class="reviews__divider divider" />
+              <figcaption class="reviews__name">Jon Doe</figcaption>
+            </figure>
+          </section>
+        </div>
+
+        <div class="swiper-slide">
+          <section class="reviews reviews__container">
+            <img
+              class="reviews__icon"
+              src="./images/message-icon.svg"
+              alt="message-icon"
+            />
+            <figure class="reviews__message">
+              <p class="reviews__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque
+                nec diam platea ullamcorper feugiat amet. Id aliquet vehicula
+                feugiat arcu arcu nulla ornare. Sed amet venenatis, massa sit.
+              </p>
+              <hr class="reviews__divider divider" />
+              <figcaption class="reviews__name">Jon Doe</figcaption>
+            </figure>
+          </section>
+        </div>
+
+        <div class="swiper-slide">
+          <section class="reviews reviews__container">
+            <img
+              class="reviews__icon"
+              src="./images/message-icon.svg"
+              alt="message-icon"
+            />
+            <figure class="reviews__message">
+              <p class="reviews__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque
+                nec diam platea ullamcorper feugiat amet. Id aliquet vehicula
+                feugiat arcu arcu nulla ornare. Sed amet venenatis, massa sit.
+              </p>
+              <hr class="reviews__divider divider" />
+              <figcaption class="reviews__name">Jon Doe</figcaption>
+            </figure>
+          </section>
+        </div>
+
+        <div class="swiper-slide">
+          <section class="reviews reviews__container">
+            <img
+              class="reviews__icon"
+              src="./images/message-icon.svg"
+              alt="message-icon"
+            />
+            <figure class="reviews__message">
+              <p class="reviews__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque
+                nec diam platea ullamcorper feugiat amet. Id aliquet vehicula
+                feugiat arcu arcu nulla ornare. Sed amet venenatis, massa sit.
+              </p>
+              <hr class="reviews__divider divider" />
+              <figcaption class="reviews__name">Jon Doe</figcaption>
+            </figure>
+          </section>
+        </div>
+      </div>
+
+      <div class="swiper-button-prev">
+        <img class="reviews__arrow" src="./images/arrow_down.svg" alt="arrow" />
+      </div>
+      <div class="swiper-button-next">
+        <img
+          class="reviews__arrow--right"
+          src="./images/arrow_down.svg"
+          alt="arrow"
+        />
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <section class="portfolio container" id="portfolio">
+      <h2 class="portfolio__title">What we do</h2>
+      <h3 class="portfolio__subtitle">some of our work</h3>
+      <hr class="portfolio__divider divider" />
+      <p class="portfolio__description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu facilisis
+        sed venenatis lacus. Eget sit ridiculus facilisi amet. Dis sapien ipsum
+        enim dui fermentum viverra dolor sit. Aliquet congue sit fermentum risus
+        feugiat.
+      </p>
+
+      <div class="portfolio__container">
+        <div class="portfolio__case case">
+          <img
+            class="case__image"
+            src="./images/portfolio-case-girl.png"
+            alt="Case"
+          />
+          <div class="case__overlay">
+            <img class="case__icon" src="./images/cup-icon.svg" alt="Cup" />
+            <h4 class="case__title">creatively design</h4>
+            <p class="case__description">Lorem ipsum dolor sit</p>
+          </div>
+        </div>
+
+        <div class="portfolio__case case">
+          <img
+            class="case__image"
+            src="./images/portfolio-case-sand.png"
+            alt="Case"
+          />
+          <div class="case__overlay">
+            <img class="case__icon" src="./images/cup-icon.svg" alt="Cup" />
+            <h4 class="case__title">creatively design</h4>
+            <p class="case__description">Lorem ipsum dolor sit</p>
+          </div>
+        </div>
+
+        <div class="portfolio__case case case--long">
+          <img
+            class="case__image"
+            src="./images/portfolio-case-wood.png"
+            alt="Case"
+          />
+          <div class="case__overlay">
+            <img class="case__icon" src="./images/cup-icon.svg" alt="Cup" />
+            <h4 class="case__title">creatively design</h4>
+            <p class="case__description">Lorem ipsum dolor sit</p>
+          </div>
+        </div>
+
+        <div class="portfolio__case case">
+          <img
+            class="case__image"
+            src="./images/portfolio-case-house.png"
+            alt="Case"
+          />
+          <div class="case__overlay">
+            <img class="case__icon" src="./images/cup-icon.svg" alt="Cup" />
+            <h4 class="case__title">creatively design</h4>
+            <p class="case__description">Lorem ipsum dolor sit</p>
+          </div>
+        </div>
+
+        <div class="portfolio__case case">
+          <img
+            class="case__image"
+            src="./images/portfolio-case-windows.png"
+            alt="Case"
+          />
+          <div class="case__overlay">
+            <img class="case__icon" src="./images/cup-icon.svg" alt="Cup" />
+            <h4 class="case__title">creatively design</h4>
+            <p class="case__description">Lorem ipsum dolor sit</p>
+          </div>
+        </div>
+
+        <div class="portfolio__case case case--wide">
+          <img
+            class="case__image"
+            src="./images/portfolio-case-round-building.png"
+            alt="Case"
+          />
+          <div class="case__overlay">
+            <img class="case__icon" src="./images/cup-icon.svg" alt="Cup" />
+            <h4 class="case__title">creatively design</h4>
+            <p class="case__description">Lorem ipsum dolor sit</p>
+          </div>
+        </div>
+
+        <div class="portfolio__case case">
+          <img
+            class="case__image"
+            src="./images/portfolio-case-wavy-building.png"
+            alt="Case"
+          />
+          <div class="case__overlay">
+            <img class="case__icon" src="./images/cup-icon.svg" alt="Cup" />
+            <h4 class="case__title">creatively design</h4>
+            <p class="case__description">Lorem ipsum dolor sit</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="map container" id="blog">
+      <div class="map__overlay"></div>
+      <img
+        class="map__location"
+        src="./images/location-icon.svg"
+        alt="location"
+      />
+      <h4 class="map__title">Latest blog</h4>
+      <hr class="map__divider divider" />
+    </section>
+
+    <footer class="footer container" id="contact">
+      <section class="footer__main">
+        <div class="footer__info info">
+          <img
+            src="./images/MoGo-logo-footer.svg"
+            alt="MoGo"
+            class="info__logo"
+          />
+          <p class="info__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Pellentesque quis proin varius vitae leo eget tincidunt duis amet.
+            Et amet dis vel imperdiet volutpat mauris est leo cursus.
+          </p>
+
+          <div class="info__followers">
+            <h3 class="info__number">15</h3>
+            <p class="info__quantity">k</p>
+            <p class="info__text">followers</p>
+          </div>
+
+          <hr class="info__divider divider" />
+
+          <div class="info__media media">
+            <p class="info__follow">Follow Us</p>
+            <a href="#"
+              ><img
+                src="./images/facebook-logo.svg"
+                alt="facebook"
+                class="media-logo"
+            /></a>
+            <a href="#"
+              ><img
+                src="./images/twitter-logo.svg"
+                alt="twitter"
+                class="media-logo"
+            /></a>
+            <a href="#"
+              ><img
+                src="./images/instagram-logo.svg"
+                alt="instagram"
+                class="media-logo"
+            /></a>
+            <a href="#"
+              ><img
+                src="./images/pinterest-logo.svg"
+                alt="pinterest"
+                class="media-logo"
+            /></a>
+            <a href="#"
+              ><img
+                src="./images/linkedin-logo.svg"
+                alt="linkedin"
+                class="media-logo"
+            /></a>
+            <a href="#"
+              ><img
+                src="./images/youtube-logo.svg"
+                alt="youtube"
+                class="media-logo"
+            /></a>
+            <a href="#"
+              ><img
+                src="./images/dribble-logo.svg"
+                alt="dribble"
+                class="media-logo"
+            /></a>
+            <a href="#"
+              ><img
+                src="./images/tiktok-logo.svg"
+                alt="tiktok"
+                class="media-logo"
+            /></a>
+          </div>
+
+          <div class="info__input-email">
+            <input type="email" placeholder="Your Email" class="info__email" />
+            <button class="info__button">subscribe</button>
+          </div>
+        </div>
+
+        <div class="footer__blogs blogs">
+          <h3 class="blogs__title">blogs</h3>
+
+          <div class="blogs__card card">
+            <img
+              src="./images/blogs-image-1.png"
+              alt="blog"
+              class="card__image"
+            />
+            <div class="card__description">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p class="card__description-date">jan.9.22.15</p>
+            </div>
+          </div>
+
+          <div class="blogs__card card">
+            <img
+              src="./images/blogs-image-2.png"
+              alt="blog"
+              class="card__image"
+            />
+            <div class="card__description">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p class="card__description-date">jan.9.22.15</p>
+            </div>
+          </div>
+
+          <div class="blogs__card card">
+            <img
+              src="./images/blogs-image-3.png"
+              alt="blog"
+              class="card__image"
+            />
+            <div class="card__description">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p class="card__description-date">jan.9.22.15</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__instagram instagram">
+          <h3 class="instagram__title">instagram</h3>
+
+          <div class="instagram__container">
+            <img
+              src="./images/insta-image-1.png"
+              alt="insta-image"
+              class="instagram__photo"
+            />
+            <img
+              src="./images/insta-image-2.png"
+              alt="insta-image"
+              class="instagram__photo"
+            />
+            <img
+              src="./images/insta-image-3.png"
+              alt="insta-image"
+              class="instagram__photo"
+            />
+            <img
+              src="./images/insta-image-4.png"
+              alt="insta-image"
+              class="instagram__photo"
+            />
+            <img
+              src="./images/insta-image-5.png"
+              alt="insta-image"
+              class="instagram__photo"
+            />
+            <img
+              src="./images/insta-image-6.png"
+              alt="insta-image"
+              class="instagram__photo"
+            />
+            <img
+              src="./images/insta-image-7.png"
+              alt="insta-image"
+              class="instagram__photo"
+            />
+            <img
+              src="./images/insta-image-8.png"
+              alt="insta-image"
+              class="instagram__photo"
+            />
+            <img
+              src="./images/insta-image-9.png"
+              alt="insta-image"
+              class="instagram__photo"
+            />
+          </div>
+
+          <a href="#" class="instagram__link">see all photos</a>
+        </div>
+      </section>
+
+      <hr class="footer__divider divider" />
+      <p class="footer__legacy">Copyright © 2021 mogo. All Rights Reserved</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="./js/burger.js"></script>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <script type="module">
+      const swiper = new Swiper(".swiper", {
+        loop: true,
+
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+
+        pagination: {
+          el: ".swiper-pagination",
+          type: "bullets",
+          clickable: true,
+        },
+      });
+    </script>
+  </body>
+</html>

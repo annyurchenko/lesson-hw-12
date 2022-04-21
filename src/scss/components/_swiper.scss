@@ -1,0 +1,35 @@
+:root {
+  --swiper-theme-color: $gray;
+
+  @include mobile {
+    --swiper-pagination-bullet-horizontal-gap: 3.2%;
+    --swiper-pagination-bullet-size: 9.5px;
+    --swiper-pagination-bullet-inactive-color: $ordinary-white;
+  }
+}
+
+.swiper {
+  width: 100%;
+}
+
+.swiper-pagination {
+  display: none;
+
+  @include mobile {
+    display: block;
+    position: static;
+    margin: 0 auto 28.51px;
+  }
+
+  &-bullet {
+    border: 1px solid $gray;
+    background: none;
+    opacity: 1;
+    width: 9.5px;
+    height: 9.5px;
+
+    &-active {
+      background: $gray;
+    }
+  }
+}
